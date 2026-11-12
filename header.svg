@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#2D1B69"/>
+      <stop offset="50%" stop-color="#4A1942"/>
+      <stop offset="100%" stop-color="#8B1A1A"/>
+    </linearGradient>
+    <linearGradient id="textFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.04"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="640" fill="url(#bg)"/>
+
+  <!-- Subtle decorative kanji in background -->
+  <text x="80" y="200" font-family="Hiragino Sans, sans-serif" font-size="180" fill="url(#textFade)" opacity="0.5">読</text>
+  <text x="280" y="520" font-family="Hiragino Sans, sans-serif" font-size="140" fill="url(#textFade)" opacity="0.4">書</text>
+  <text x="900" y="180" font-family="Hiragino Sans, sans-serif" font-size="160" fill="url(#textFade)" opacity="0.35">学</text>
+  <text x="1050" y="500" font-family="Hiragino Sans, sans-serif" font-size="150" fill="url(#textFade)" opacity="0.45">字</text>
+
+  <!-- App icon shape -->
+  <rect x="430" y="120" width="120" height="120" rx="27" fill="rgba(255,255,255,0.12)"/>
+  <text x="490" y="207" font-family="Hiragino Sans, sans-serif" font-size="72" fill="#FFFFFFEE" text-anchor="middle" dominant-baseline="central">漢</text>
+  <text x="490" y="220" font-family="Hiragino Sans, sans-serif" font-size="20" fill="#FFFFFF99" text-anchor="middle" dy="24">字</text>
+
+  <!-- App name -->
+  <text x="570" y="165" font-family="-apple-system, BlinkMacSystemFont, Helvetica Neue, sans-serif" font-size="52" font-weight="700" fill="#FFFFFFE6" letter-spacing="1">Kanji Study</text>
+
+  <!-- Subtitle -->
+  <text x="570" y="210" font-family="-apple-system, BlinkMacSystemFont, Helvetica Neue, sans-serif" font-size="22" fill="#FFFFFF99" letter-spacing="0.5">Learn &amp; Write JLPT Kanji</text>
+
+  <!-- Feature pills -->
+  <g font-family="-apple-system, BlinkMacSystemFont, Helvetica Neue, sans-serif" font-size="16" fill="#FFFFFFCC">
+    <!-- Pill 1 -->
+    <rect x="310" y="310" width="155" height="40" rx="20" fill="rgba(255,255,255,0.1)"/>
+    <text x="387" y="336" text-anchor="middle">869 Kanji</text>
+
+    <!-- Pill 2 -->
+    <rect x="485" y="310" width="175" height="40" rx="20" fill="rgba(255,255,255,0.1)"/>
+    <text x="572" y="336" text-anchor="middle">Writing Practice</text>
+
+    <!-- Pill 3 -->
+    <rect x="680" y="310" width="155" height="40" rx="20" fill="rgba(255,255,255,0.1)"/>
+    <text x="757" y="336" text-anchor="middle">Stroke Order</text>
+
+    <!-- Pill 4 -->
+    <rect x="370" y="365" width="170" height="40" rx="20" fill="rgba(255,255,255,0.1)"/>
+    <text x="455" y="391" text-anchor="middle">100% Offline</text>
+
+    <!-- Pill 5 -->
+    <rect x="560" y="365" width="210" height="40" rx="20" fill="rgba(255,255,255,0.1)"/>
+    <text x="665" y="391" text-anchor="middle">Lock Screen Widget</text>
+  </g>
+
+  <!-- JLPT level badges -->
+  <g font-family="-apple-system, BlinkMacSystemFont, Helvetica Neue, sans-serif" font-size="15" font-weight="600" text-anchor="middle">
+    <rect x="380" y="460" width="52" height="30" rx="15" fill="#4CAF50" opacity="0.8"/>
+    <text x="406" y="480" fill="white">N5</text>
+
+    <rect x="448" y="460" width="52" height="30" rx="15" fill="#2196F3" opacity="0.8"/>
+    <text x="474" y="480" fill="white">N4</text>
+
+    <rect x="516" y="460" width="52" height="30" rx="15" fill="#FF9800" opacity="0.8"/>
+    <text x="542" y="480" fill="white">N3</text>
+
+    <rect x="584" y="460" width="52" height="30" rx="15" fill="#9C27B0" opacity="0.8"/>
+    <text x="610" y="480" fill="white">N2</text>
+
+    <rect x="652" y="460" width="52" height="30" rx="15" fill="#F44336" opacity="0.8"/>
+    <text x="678" y="480" fill="white">N1</text>
+  </g>
+
+  <!-- Tagline -->
+  <text x="640" y="550" font-family="-apple-system, BlinkMacSystemFont, Helvetica Neue, sans-serif" font-size="17" fill="#FFFFFF77" text-anchor="middle">Master JLPT kanji through daily handwriting practice</text>
+</svg>
